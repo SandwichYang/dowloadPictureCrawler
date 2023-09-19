@@ -18,8 +18,8 @@ login = driver.find_element_by_xpath('//*[@id="loginForm"]/div/div[3]/button')
 
 username.clear()
 password.clear()
-username.send_keys('34208505@qq.com')
-password.send_keys('569132ysj')
+username.send_keys('123456')
+password.send_keys('123456')
 login.click()
 
 next1 = WebDriverWait(driver, 10).until(
